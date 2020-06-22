@@ -1,0 +1,47 @@
+# References
+# https://git-scm.com/docs/gitignore
+# https://github.com/github/gitignore/blob/master/Python.gitignore
+
+# Non-source files
+*.log
+*.bak
+*.bak.*
+*.backup
+*.tmp
+*.tfstate
+
+# Project paths
+build/
+cache/
+logs/
+output/
+temp/
+tmp/
+
+# Data paths
+data/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cd]
+*$py.class
+
+# Development Tools
+.idea/
+.vscode/
+.terraform/
+.terragrunt-cache/
+
+# Python
+.pytest_cache/
+.nox/
+.tox/
+.cache
+.coverage
+.coverage.*
+
+# Python Environments
+.env/
+env/
+.venv/
+venv/
